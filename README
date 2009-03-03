@@ -2,8 +2,8 @@
 
 Adds tag <r:date_converter>. Using:
 
-<r:date_converter from="ymd" to="%B %d, %y">20081010</r:date_converter>
+<r:date_converter from="%Y%m%d" to="%B %d, %y">20081010</r:date_converter>
 
 will show 'October 10, 2008'.
 
-Output parameter 'to' takes usual strftime format
+Parameters 'from' and 'to' take usual strftime format.

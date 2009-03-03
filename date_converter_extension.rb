@@ -7,6 +7,7 @@ class DateConverterExtension < Radiant::Extension
   url "http://github.com/astashov/radiant-date-converter-extension/tree/master"
   
   def activate
+    Page.send :include, DateConverterTags
   end
   
   def deactivate
